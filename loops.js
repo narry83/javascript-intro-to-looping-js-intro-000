@@ -15,3 +15,12 @@ function whileLoop(num){
   }
   return "done"
 }
+
+
+function doWhileLoop(num){
+  while (num>0) {
+    console.log(num);
+    num--
+  }
+  return "done"
+}
